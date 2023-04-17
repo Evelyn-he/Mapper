@@ -5,7 +5,7 @@
 ### Bucketing
 Designed a recursive bucketing scheme that creates grids at power-of-two layers, efficiently building up from lower-to-higher grid buckets and removing unneccesssary information at each layer. Only features contained in sections of a grid in the current bounds of the screen are computed, decreasing the overall draw time of the map by an order of magnitude.
 
-![](https://github.com/Evelyn-he/Mapper/grid_lines.gif)
+![](https://github.com/Evelyn-he/Mapper/blob/main/grid_lines.gif)
 
 ### Fastest-path computations
 For paths between intersections, made use of an A* algorithm in conjunction with a min heap
