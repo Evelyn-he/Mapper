@@ -1,5 +1,7 @@
 # Mapper
 
+Built a Geographic Information System (GIS) software program that visualizes fastest-path and travelling courier (variant on travelling salesman) problems.
+
 ## Notable Contributions
 
 ### Bucketing
@@ -9,6 +11,13 @@ Designed a recursive bucketing scheme that creates grids at power-of-two layers,
 
 ### Fastest-path computations
 For paths between intersections, made use of an A* algorithm in conjunction with a min heap
+
+### Travelling Courier
+
+* Multi-destination Dijkstra to pre-compute fastest paths between all nodes.
+* Used Greedy algorithm and multistart to produce a number of preliminary solutions.
+* Pertubated all preliminary solutions (using 2-opt, 3-opt, and smaller local swapping pertubations) in parallel with multithreading to produce faster path times.
+* Used simulated annealing with hill climbing to find deeper local minima. 
 
 ## Key Words
 * A *, Multi-Destination Dijkstra 
