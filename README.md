@@ -2,6 +2,8 @@
 
 Built a Geographic Information System (GIS) software program that visualizes fastest-path and travelling courier (variant on travelling salesman) problems.
 
+![](https://github.com/Evelyn-he/Mapper/blob/main/Map.gif)
+
 ## Notable Contributions
 
 ### Bucketing
